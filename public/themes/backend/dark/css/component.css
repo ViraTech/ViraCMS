@@ -1,0 +1,57 @@
+.row-component {
+}
+
+.row-component .row-component-header {
+  padding-top: 25px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.row-component .list-view {
+  padding-top: 0;
+}
+
+.row-component .row-component-list {
+  padding-top: 2px;
+  margin-bottom: 10px;
+  line-height: 18px;
+  border-top: 1px solid #2F3235;
+}
+
+.row-component .row-component-list div[class^="span"] {
+  margin-top: 5px;
+  min-height: 20px;
+}
+
+.row-component .row-component-list div.buttons {
+  margin-top: 2px;
+}
+
+.row-component .row-component-list h5 {
+  margin-top: 0;
+}
+
+.text-striked {
+  text-decoration: line-through;
+}
+
+.filter-select,
+.filter-inputs {
+  margin-bottom: 10px;
+}
+
+.filter-select label,
+.filter-inputs label {
+  font-size: 13px;
+  text-transform: lowercase;
+}
+
+.product-modal h6 {
+  margin-bottom: 5px;
+}
+
+.product-modal h6 + strong {
+  display: block;
+  margin-bottom: 10px;
+}

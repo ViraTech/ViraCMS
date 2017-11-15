@@ -1,0 +1,1 @@
+<h2><?= Yii::t('admin.content.titles','System Pages') ?></h2>

@@ -1,0 +1,2 @@
+
+ul.dragsort{margin:0;padding:0;list-style:none;list-style-type:none}ul.dragsort>li{float:left;outline:1px solid #ccc}.dragsort *[data-placeholder]{background-color:transparent;outline:dashed 1px #ccc}

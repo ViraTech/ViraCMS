@@ -1,0 +1,40 @@
+.row-component {
+}
+
+.row-component .row-component-header {
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.row-component .list-view {
+  padding-top: 0;
+}
+
+.row-component .row-component-list {
+  padding-top: 7px;
+  margin-bottom: 4px;
+  font-size: 11px;
+  line-height: 15px;
+  border-top: 1px solid #dddddd;
+}
+
+.text-striked {
+  text-decoration: line-through;
+}
+
+.filter-apply,
+.filter-select {
+  padding-left: 15px;
+}
+
+.filter-inputs {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.filter-select label,
+.filter-inputs label {
+  font-size: 13px;
+  text-transform: lowercase;
+}

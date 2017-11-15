@@ -1,0 +1,25 @@
+<?php
+
+return array(
+  'Core Widgets' => 'Основные',
+  'Custom Widgets' => 'Специальные',
+  'Custom Menu Widget' => 'Пользовательское меню',
+  'Site Section Menu Widget' => 'Меню раздела сайта',
+  'Custom Navbar Widget' => 'Навигационное меню',
+  'Site Menu Widget' => 'Меню сайта',
+  'Advanced Site Menu Widget' => 'Настраиваемое меню сайта',
+  'Advanced Navbar Widget' => 'Навигационное меню',
+  'Breadcrumbs Widget' => 'Хлебные крошки',
+  'Frontend Sitemap Widget' => 'Карта сайта',
+  'Language Selector Widget' => 'Выбор языка',
+  'Shared Content Block' => 'Общий блок контента',
+  'Site Search' => 'Поиск по сайту',
+  'Carousel' => 'Карусель',
+  'Photo' => 'Фото',
+  '1 in a row' => '1 фото в строке',
+  '2 in a row' => '2 фото в строке',
+  '3 in a row' => '3 фото в строке',
+  '4 in a row' => '4 фото в строке',
+  '6 in a row' => '6 фото в строке',
+  '12 in a row' => '12 фото в строке',
+);

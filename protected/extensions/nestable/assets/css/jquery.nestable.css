@@ -1,0 +1,167 @@
+#control-buttons {
+	position: absolute;
+	padding: 5px 0;
+	width: auto;
+	text-align: right;
+	z-index: 1000;
+}
+
+#control-buttons a {
+	margin-left: 3px;
+}
+
+#control-buttons a i {
+	color: #000000;
+}
+
+.sitemap {
+	margin-bottom: 30px;
+}
+
+.sitemap-dragging {
+	overflow: hidden;
+}
+
+.sitemap a {
+	height: 20px;
+	width: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sitemap a i {
+	font-size: 13px;
+}
+
+.sitemap li a:first-child {
+	width: 100%;
+	text-align: left;
+	cursor: move;
+}
+
+.sitemap li > .btn-group {
+	display: block;
+	margin-right: 195px;
+}
+
+.sitemap li[data-edit-url] > .btn-group {
+	display: block;
+	margin-right: 236px;
+}
+
+.sitemap li[data-homepage] > .btn-group {
+	margin-right: 154px;
+}
+
+.sitemap li.sitemap-hidden a {
+	opacity: .5;
+}
+
+.sitemap li.sitemap-disabled-item a:first-child:hover,
+.sitemap li.sitemap-disabled-item a:first-child:focus {
+	cursor: default;
+}
+
+.sitemap ul,
+.sitemap-dragging,
+.sitemap-dragging ul {
+	margin: 0;
+}
+
+.sitemap ul li,
+.sitemap-dragging li,
+.sitemap-dragging ul li {
+	list-style: none;
+	display: block;
+	position: relative;
+	padding-top: 3px;
+}
+
+.sitemap ul ul,
+.sitemap-dragging ul {
+	padding-left: 24px;
+}
+
+.sitemap ul ul li,
+.sitemap-dragging ul li {
+	padding-left: 16px;
+	background: url(../img/t-line.png) -22px 0 no-repeat;
+}
+
+.sitemap ul ul li:last-child,
+.sitemap-dragging ul li:last-child {
+	background: url(../img/l-line.png) -22px 0 no-repeat;
+}
+
+.sitemap-dragging {
+	position: absolute;
+	pointer-events: none;
+	z-index: 9999;
+}
+
+.sitemap-dragging a {
+	margin-top: 0;
+}
+
+.sitemap-dragging li a {
+    -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+            box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+
+.sitemap-dragging li .btn-group {
+	margin-right: 0;
+	display: block;
+}
+
+.sitemap-dragging li .btn-group a {
+	display: block;
+	width: 100%;
+	text-align: left;
+	margin: 0;
+}
+
+.sitemap-dragging li .btn-group a[class*=btn-control] {
+	display: none;
+}
+
+.sitemap-placeholder,
+.sitemap-empty-item {
+	margin: 5px 0 0 0;
+	padding: 0 0 0 20px;
+	min-height: 30px;
+	background: rgba(255,255,255,0.5);
+	border: 1px dashed #b6bcbf;
+	-moz-box-sizing: border-box;
+		 box-sizing: border-box;
+}
+
+.sitemap-empty-item {
+	border: 1px dashed #bbb;
+	min-height: 100px;
+	background-color: #e5e5e5;
+    background-image: -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff),
+                      -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-image:    -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff),
+                         -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-image:         linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff),
+                              linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+
+.sitemap .btn-group .btn span,
+.sitemap .btn-group .btn small {
+	display: inline-block;
+	max-width: 45%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 12px;
+}
+
+.sitemap .btn-group .btn span + small {
+	margin-left: 10px;
+}
+
+.sitemap .btn-group .btn .pull-right {
+	direction: rtl;
+}

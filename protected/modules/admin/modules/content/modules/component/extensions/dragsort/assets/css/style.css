@@ -1,0 +1,16 @@
+ul.dragsort {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-type: none;
+}
+
+ul.dragsort > li {
+	float: left;
+	outline: 1px solid #cccccc;
+}
+
+.dragsort *[data-placeholder] {
+	background-color: transparent;
+	outline: dashed 1px #cccccc;
+}
