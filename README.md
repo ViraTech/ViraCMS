@@ -26,10 +26,15 @@ And it's have a very nice visual editor of the site static pages :-)
 
 #### Installation
 
-Download zip-file and extract it contents (or clone this repository) to
-the web server site directory.
+[Download zip-file](https://github.com/ViraTech/ViraCMS/archive/master.zip) and extract it
+contents, OR clone the repository to the server directory which is indended to be a website
+storage directory.
 
-The directories `public/assets`, `public/files`, and `runtime/` must be
+```
+git clone https://github.com/ViraTech/ViraCMS.git .
+```
+
+Note that the directories `public/assets`, `public/files`, and `runtime/` must be
 allowed to write for the web server process.
 
 Make sure your server configured properly and points to `public/`
