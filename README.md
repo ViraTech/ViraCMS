@@ -34,8 +34,8 @@ storage directory.
 git clone https://github.com/ViraTech/ViraCMS.git .
 ```
 
-Note that the directories `public/assets`, `public/files`, and `runtime/` must be
-allowed to write for the web server process.
+Note that the directories `public/assets`, `public/cache`, `public/files`,
+and `runtime/` must be allowed to write for the web server process.
 
 Make sure your server configured properly and points to `public/`
 directory as website root, and have `index.php` as root index.
